@@ -91,10 +91,11 @@ type Concrete<Type> = {
 
 ## 内在字符串操作类型
 
-- `Uppercase`：将字符串中的每个字符转换为大写形式。
-- `Lowercase`：将字符串中的每个字符转换为小写形式。
-- `Capitalize`：将字符串中的第一个字符转换为大写字母。
-- `Uncapitalize`：将字符串中的第一个字符转换为小写字母。
+- `Uppercase<StringType>`：将字符串中的每个字符转换为大写形式。
+- `Lowercase<StringType>`：将字符串中的每个字符转换为小写形式。
+- `Capitalize<StringType>`：将字符串中的第一个字符转换为大写字母。
+- `Uncapitalize<StringType>`：将字符串中的第一个字符转换为小写字母。
+- `NoInfer<Type>`
 
 ## 类构造函数签名和函数签名之间只有几点不同
 
